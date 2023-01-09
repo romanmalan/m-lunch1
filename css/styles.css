@@ -706,11 +706,11 @@ td:nth-child(2) {
 @media (max-width: 1099px) {
     
   header {
-     
+    height: 100px;
   }
   
   #wrapper-header {
-    height: 80px;
+    height: 100px;
     justify-content: space-between;
   }
   
@@ -719,18 +719,21 @@ td:nth-child(2) {
 }
   
   #logo {
-  padding-top: 195px;
   padding-left: 37px;
   }
   
  
   
-  #social {
-      
+  .social-icon {
+    margin-right: 50px;
   }
   
-  .numbers__time {
-     
+  #numbers {
+    font-size: 24px;
+  }
+
+  #time {
+    font-size: 15px;
   }
   
   .menu2__wrap {
