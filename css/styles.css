@@ -734,6 +734,7 @@ td:nth-child(2) {
 
   #time {
     font-size: 15px;
+    width: 300px;
   }
   
   .menu2__wrap {
