@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="format-detection" content="telephone=no" />
+  <title>M-lunch</title> 
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/slider.js"></script>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head> 
+<body>
+ <header style="box-sizing: content-box; border-bottom: 0px solid #121212;">
+    <div id="wrapper-header">
+      <div id="logo">
+        <a href="/"><img src="images/logo.png" alt="M-lunch"></a> 
+      </div>
+      <nav>
+        <ul class="top-menu">
+          <li><a href="/doner/">Шаурма</a></li>
+          <li><a href="/comboset/">Комбо-сеты</a></li>
+          <li><a href="/sushiset/">Роллы-сеты</a></li>
+          <li><a href="/pizza/">Пицца</a></li>
+        </ul>
+      </nav>
+      <div id="social">
+        <a href="https://vk.com/public200607121" class="social-icon vk"></a>
+        <a href="https://instagram.com/m_lunch_vgae" class="social-icon instagram"></a>
+      </div>
+      <div class="numbers__time">
+        <div id="numbers">
+          <p>+7 (909) 618-81-81</p>
+          <p>+7 (922) 818-81-81</p>
+        </div>
+        <div id="time">
+          <p> Доставка с 11:00 до 24:00 без выходных<p>
+        </div>
+      </div> 
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>  
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Главная</a></li>
+          <li><a class="menu__item" href="#">Проекты</a></li>
+          <li><a class="menu__item" href="#">Команда</a></li>
+          <li><a class="menu__item" href="#">Блог</a></li>
+          <li><a class="menu__item" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+ </header>
+ <div id="wrapper">
+    <div id="slider-wrap">
+      <div id="active-slide">
+        <div id="slider">
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide1.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide2.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide3.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide4.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide5.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide6.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide7.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide8.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide9.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide10.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide11.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide12.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide13.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide14.jpg"></div>
+            <div class="slide"><img src="http://f0698463.xsph.ru/images/slide15.jpg"></div>
+        </div>
+      </div>
+    </div>   
+    <div class="category__container"> 
+      <a class="category__item" href="/pizza">
+        <div class="category__content" style="background-color:#d93d33;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Pizza_large.png" alt="Пицца">   
+                </div>
+            </div>
+            <div class="category__name">Пицца</div>
+        </div>
+      </a>
+      <a class="category__item" href="/doner">
+        <div class="category__content" style="background-color:#f8a7a5;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Doner_large.png" alt="Шаурма">  
+                </div>
+            </div>
+            <div class="category__name">Шаурма</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#73bfe5;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Sushi_large.png" alt="Суши Роллы"> 
+                </div>
+            </div>
+            <div class="category__name">Суши Роллы</div>
+        </div>
+      </a>
+      <a class="category__item" href="/burger">
+        <div class="category__content" style="background-color:#d93d33">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Burgers_large.png" alt="Бургеры">
+                </div>
+            </div>
+            <div class="category__name">Бургеры</div>
+        </div>
+      </a>
+      <a class="category__item" href="/hot-dog">
+        <div class="category__content" style="background-color:#fdbe45;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Hot-dog_large.png" alt="Хот-доги">
+                </div>
+            </div>
+            <div class="category__name">Хот-доги</div>
+        </div>
+      </a>
+    </div>        
+    <div class="category__container"> 
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#cb0112;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Kombo_large.png" alt="Комбо сеты"> 
+                </div>
+            </div>
+            <div class="category__name">Комбо сеты</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#007198;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Set_large.png" alt="Суши сеты">   
+                </div>
+            </div>
+            <div class="category__name">Суши сеты</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#f8a7a5;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Durum_large.png" alt="Дюрум">  
+                </div>
+            </div>
+            <div class="category__name">Дюрум</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#fdbe45;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Giros_large.png" alt="Гирос">  
+                </div>
+            </div>
+            <div class="category__name">Гирос</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#d93d33;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Kebab_large.png" alt="Денер кебаб">
+                </div>
+            </div>
+            <div class="category__name">Денер кебаб</div>
+        </div>
+      </a>
+    </div>
+    <div class="category__container"> 
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#fdbe45;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Zakuski_large.png" alt="Закуски">
+                </div>
+            </div>
+            <div class="category__name">Закуски</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#35653f;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Salat_large.png" alt="Салаты"> 
+                </div>
+            </div>
+            <div class="category__name">Салаты</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#73bfe5;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Drink_large.png" alt="Напитки">  
+                </div>
+            </div>
+            <div class="category__name">Напитки</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#926bca;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Sous_large.png" alt="Соусы">  
+                </div>
+            </div>
+            <div class="category__name">Соусы</div>
+        </div>
+      </a>
+      <a class="category__item" href="/">
+        <div class="category__content" style="background-color:#cb0112;">                
+            <div class="category__image">  
+                <div class="lazy-image">
+                  <img class="lazy-image__img lazy-image__img_large lazy-image__img_loaded" src="/images/Promo_large.png" alt="Акции">  
+                </div>
+            </div>
+            <div class="category__name">Акции</div>
+        </div>
+      </a>
+    </div>
+    <div class="advantages-section">
+      <div class="advantages-container">
+        <div class="advantages-text">
+            <h2>Почему лучше сделать заказ у нас?</h2>
+            <div class="span">
+              <span>-Только свежие и качественные продукты!
+            -Широкий ассортимент блюд в одном месте.
+            Вы всегда сможете заказать у нас роллы, пиццу, шаурму, хот-доги, бургеры.<br>
+            -Наша дружная команда приготовит ваш заказ быстро и вкусно.<br>
+            -Наши курьеры осуществят доставку в кратчайшие сроки!<br>
+            -Бесплатная доставка от 500рублей по г.Гай</span>
+            </div>
+        </div>
+        <div class="advantages-image">
+            <img src="/images/advantages.png" alt="advantages">
+            <div class="advantages-hours">
+            <h3>Режим работы</h3>
+            <p>с 11:00 до 24:00<br> без выходных</p>
+            <span>+7 909 618-81-81<br>+7 922 818-81-81</span>
+        </div>
+      </div>
+    </div> 
+ </div> 
+ </div>   
+ <footer>
+  <div class="footer">
+    <div class="numbers__time__footer">
+      <div id="numbers">
+       <p>+7 (909) 618-81-81</p>
+       <p>+7 (922) 818-81-81</p>
+      </div>
+      <div id="time">
+       <p> Доставка: с 11:00 до 24:00 без выходных<p>
+      </div>
+    </div> 
+    <div class="logo__year__footer">
+      <div class="logo__footer">
+        <a href="/"><img src="http://f0698463.xsph.ru/images/logo.png" alt="M-lunch"></a>
+      </div>
+      <div class="year">
+        <p>2022г.</p>
+      </div>
+    </div>
+    <div class="adress__social">
+     <div class="adress">
+      <p>г. Гай, ул. Ленина 43 | Cafe Club "M-Lunch"</p>
+     </div>
+     <div id="social">
+      <a href="https://vk.com/public200607121" class="social-icon vk"></a>
+      <a href="https://instagram.com/m_lunch_vgae" class="social-icon instagram"></a>
+     </div>
+    </div>
+  </div>
+ </footer>
+</body>
+</html>
