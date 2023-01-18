@@ -739,7 +739,7 @@ td:nth-child(2) {
     margin-right: 50px;
     width: 50px;
 	  height: 50px;
-	  background: url(/images/social2.png) no-repeat;
+	  background: url(/images/..social2.png) no-repeat;
   }
 
   .instagram {
