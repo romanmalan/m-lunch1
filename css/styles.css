@@ -722,7 +722,7 @@ td:nth-child(3) {
 td:nth-child(2) {
     width: 550px;
 }
-@media (max-width: 1099px) {
+media (max-width: 1099px) {
   
 
 
@@ -943,7 +943,11 @@ td:nth-child(2) {
 }
 }
 
-@media (min-width: 737px) {
+@media (max-width: 844px) {
+
+   #social-mob {
+      display: none;
+   }
     
     .category__image img {
     height: 100%;
